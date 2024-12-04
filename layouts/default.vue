@@ -2,8 +2,8 @@
   <HeaderCustom></HeaderCustom>
   <NuxtPage />
   <footer>
-
-    <div class="item">
+      <div class="institucional_ajuda">
+        <div class="item">
        <p class="title">
       Institucional
      </p>
@@ -26,7 +26,21 @@
           <li>Prazos entregas</li>
         </ul>
       </nav></div>
+      </div>
+
+      <div class="atendimento">
+        <p class="title">
+      Atendimento
+     </p>
+     <p class="content">
+      Telefone : (71) 2137 1088
+     </p>
+     <div class="social">
+      
+     </div>
+      </div>
     
+      
   </footer>
 </template>
 
@@ -36,12 +50,18 @@
 footer{
   background-color: red;
   height: 50vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 100px;
   padding-top: 100px;
   padding-left: 20px;
 
+}
+
+.institucional_ajuda{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
  .title{
   color: white;
@@ -62,6 +82,22 @@ footer{
   display: flex;
   flex-direction: column;
  }
+
+ .content{
+  color: white;
+ }
+
+ .atendimento{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+ }
+
+
+
+ 
 
 
 </style>
