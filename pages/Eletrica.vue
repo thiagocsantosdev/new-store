@@ -1,7 +1,7 @@
 <template>
   
 <div>
-  <Banner></Banner>
+ <BannerEletrica></BannerEletrica>
   <Categorias></Categorias>
       <h3>Tudo em Elétrica</h3>
       <ul>

@@ -46,7 +46,7 @@
     h3{
     margin: 20px 10px 30px 30px;
     font-family: 'Poppins';
-    font-size: 1rem;
+    font-size: 1.2rem;
     }
     
     li{

@@ -1,6 +1,8 @@
 <template>
 
 <div>
+    <BannerIndex></BannerIndex>
+    <Categorias></Categorias>
       <h3>Principais Ofertas</h3>
       <ul>
         <li v-for="produto in produtos" :key="produto.id">

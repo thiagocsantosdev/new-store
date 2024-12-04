@@ -22,7 +22,7 @@
 
     h3{
         font-family: 'Poppins';
-        font-size: 1rem;
+        font-size: 1.6rem;
         padding: 20px;
     }
 

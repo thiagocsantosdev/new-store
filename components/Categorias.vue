@@ -3,21 +3,24 @@
         Categorias
     </p>
     <nav>
-        <ul>
+        <ul> <NuxtLink to="/">
             <li> 
                 <div class="item">
                 <Icon class="icons" name="ic:baseline-attach-money"></Icon>     
                 </div>
                 <p>Ofertas</p>
             </li>
-
-            <li> <NuxtLink to="eletrica">
+        </NuxtLink>
+        
+           <NuxtLink to="eletrica">
+            <li>
                 <div class="item">
                 <Icon class="icons" name="material-symbols:electric-bolt-outline-rounded"></Icon>     
                 </div>
                 <p>Elétrica</p>
-            </NuxtLink>
             </li>
+            </NuxtLink>
+          
 
             <NuxtLink to="hidraulica">
             <li> 
@@ -28,12 +31,14 @@
             </li>
         </NuxtLink>
 
+                <NuxtLink to="ferramenta">
             <li> 
                 <div class="item">
                 <Icon class="icons" name="ic:baseline-construction"></Icon>     
                 </div>
                 <p>Ferramentas</p>
             </li>
+        </NuxtLink>
 
         
         </ul>
