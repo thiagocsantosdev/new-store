@@ -11,19 +11,22 @@
                 <p>Ofertas</p>
             </li>
 
-            <li> 
+            <li> <NuxtLink to="eletrica">
                 <div class="item">
                 <Icon class="icons" name="material-symbols:electric-bolt-outline-rounded"></Icon>     
                 </div>
                 <p>Elétrica</p>
+            </NuxtLink>
             </li>
 
+            <NuxtLink to="hidraulica">
             <li> 
                 <div class="item">
                 <Icon class="icons" name="ic:baseline-water-drop"></Icon>     
                 </div>
                 <p>Hidráulica</p>
             </li>
+        </NuxtLink>
 
             <li> 
                 <div class="item">
@@ -52,7 +55,22 @@ nav ul{
 nav ul li{
     list-style: none;
    
+   
 }
+
+a{
+  all: unset;
+  text-decoration: none;
+}
+
+
+
+nav ul li p{
+
+   color: black;
+}
+
+
 
 .item{
     display: grid;
@@ -66,7 +84,7 @@ nav ul li{
 
 nav ul li p{
     width: 34px;
- 
+   
 }
 
 

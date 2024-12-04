@@ -1,9 +1,10 @@
 <template>
-
+  
 <div>
-      <h3>Principais Ofertas</h3>
+    
+      <h3>Tudo em Elétrica</h3>
       <ul>
-        <li v-for="produto in produtos" :key="produto.id">
+        <li v-for="produto in produtosFiltrados" :key="produto.id">
           <img :src="produto.imagem" alt="Imagem do produto" width="100" />
           <div class="item-content">
             <p class="nome-produto">   {{ produto.nome }}</p> <p class="preco-produto"> R$ {{ produto.preco.toFixed(2) }}</p>
@@ -16,14 +17,16 @@
 
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, computed } from 'vue'
+import { useFetch } from '#app'
 
-const produtos = ref([]);
+// Buscar os produtos da API
+const { data: produtos, pending, error } = useFetch('/api/produtos')
 
-onMounted(async () => {
-  const response = await fetch('/api/produtos');
-  produtos.value = await response.json();
-});
+// Filtrar produtos pela categoria "eletrica"
+const produtosFiltrados = computed(() => {
+  return produtos.value?.filter(produto => produto.categoria === 'eletrica') || []
+})
 </script>
 
 
