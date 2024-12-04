@@ -1,53 +1,45 @@
 <template>
 
+   <BannerHidraulica></BannerHidraulica>
+    <h3>
+        Tudo em Hidráulica
+    </h3>
     <ul>
-        <li>
-            <NuxtLink to="">
-                <img src="/banners_hidraulica/1.png" alt="" >
-            </NuxtLink>
+        <li v-for="produto in produtosFiltrados" :key="produto.id">
+          <img :src="produto.imagem" alt="Imagem do produto" width="100" />
+          <div class="item-content">
+            <p class="nome-produto">   {{ produto.nome }}</p> <p class="preco-produto"> R$ {{ produto.preco.toFixed(2) }}</p>
+          </div>
+         
         </li>
-        <li>
-            <NuxtLink to="">
-                <img src="/banners_hidraulica/3.png" alt="" >
-            </NuxtLink>
-        </li>
-        <li>
-            <NuxtLink to="">
-                <img src="/banners_hidraulica/4.png" alt="" >
-            </NuxtLink>
-        </li>
-        <li>
-            <NuxtLink to="">
-                <img src="/banners_hidraulica/5.png" alt="" >
-            </NuxtLink>
-        </li>
-        <li>
-            <NuxtLink to="">
-                <img src="/banners_hidraulica/6.png" alt="" >
-            </NuxtLink>
-        </li>
-    </ul>
-
+      </ul>
 </template>
 
 
 <style scoped>
 
-    ul{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+   
 
-    ul li{
-        list-style: none;
-    }
-
-    ul li img{
-        width: 320px;
-        height: 120px;
+    h3{
+        font-family: 'Poppins';
+        font-size: 1rem;
+        padding: 20px;
     }
 
   
 
 </style>
+
+
+<script setup>
+import { ref, computed } from 'vue'
+import { useFetch } from '#app'
+
+// Buscar os produtos da API
+const { data: produtos, pending, error } = useFetch('/api/produtos')
+
+// Filtrar produtos pela categoria "eletrica"
+const produtosFiltrados = computed(() => {
+  return produtos.value?.filter(produto => produto.categoria === 'hidraulica') || []
+})
+</script>

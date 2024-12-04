@@ -1,9 +1,10 @@
 <template>
-
+    
     <header>
-        <div class="logo">
+        <NuxtLink to="#">  <div class="logo">
             <img src="/logo.png" alt="">
-        </div>
+        </div> </NuxtLink>
+       
        <Buscar></Buscar>
         <Carrinho></Carrinho>
     </header>

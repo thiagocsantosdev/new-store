@@ -1,7 +1,21 @@
 <template>
   
   <div>
-    <CategoriasHidraulica></CategoriasHidraulica>
+    <BannerHidraulica></BannerHidraulica>
+    <Categorias></Categorias>
+    <h3>
+        Tudo em Hidráulica
+       </h3>
+    <ul>
+        <li v-for="produto in produtosFiltrados" :key="produto.id">
+          <img :src="produto.imagem" alt="Imagem do produto" width="100" />
+          <div class="item-content">
+            <p class="nome-produto">   {{ produto.nome }}</p> <p class="preco-produto"> R$ {{ produto.preco.toFixed(2) }}</p>
+          </div>
+         
+        </li>
+      </ul>
+       
   </div>
 
     </template>
@@ -30,7 +44,9 @@
     }
     
     h3{
-    margin: 0px 0px 30px 30px;
+    margin: 20px 10px 30px 30px;
+    font-family: 'Poppins';
+    font-size: 1rem;
     }
     
     li{
