@@ -6,7 +6,7 @@
         </div> </NuxtLink>
        
        <Buscar></Buscar>
-        <Carrinho></Carrinho>
+
     </header>
 
 </template>
@@ -20,6 +20,7 @@
 
 header{
     display: flex;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     margin-bottom: 12px;

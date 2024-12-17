@@ -7,6 +7,7 @@
       <CarouselItem>
        <CarouselItemImage
         width="800"
+       
         
         src="/banners_eletrica/6.png"
        />

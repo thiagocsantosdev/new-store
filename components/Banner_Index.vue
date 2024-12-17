@@ -1,26 +1,29 @@
 <template>
-    <div>
+    <div class="container">
 
     
     <Carousel control>
      <CarouselInner>
       <CarouselItem>
        <CarouselItemImage
-        width="800"
+        width="200"
         
         src="/banners_index/11.png"
        />
       </CarouselItem>
       <CarouselItem>
        <CarouselItemImage
-        width="800"
+       width="200"
+    
         src="/banners_index/12.png"
+        
        />
       </CarouselItem>
 
       <CarouselItem>
        <CarouselItemImage
-        width="800"
+       width="200"
+       
         src="/banners_index/13.png"
        />
       </CarouselItem>

@@ -1,5 +1,6 @@
 <template>
-  <HeaderCustom></HeaderCustom>
+  <div class="container">
+    <HeaderCustom></HeaderCustom>
   <NuxtPage />
   <footer>
       <div class="institucional_ajuda">
@@ -42,6 +43,8 @@
     
       
   </footer>
+  </div>
+  
 </template>
 
 
@@ -94,6 +97,9 @@ footer{
   justify-content: center;
   margin-top: 50px;
  }
+
+
+
 
 
 

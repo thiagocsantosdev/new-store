@@ -8,7 +8,7 @@
         <ul> <NuxtLink to="/">
             <li> 
                 <div class="item">
-                <Icon class="icons" name="ic:baseline-attach-money"></Icon>     
+                <img src="/categorias_desktop/desktop_ofertas.png" alt="">    
                 </div>
                 <p>Ofertas</p>
             </li>
@@ -17,7 +17,7 @@
            <NuxtLink to="eletrica">
             <li>
                 <div class="item">
-                <Icon class="icons" name="material-symbols:electric-bolt-outline-rounded"></Icon>     
+                    <img src="/categorias_desktop/desktop_eletrica.png" alt="">    
                 </div>
                 <p>Elétrica</p>
             </li>
@@ -27,7 +27,7 @@
             <NuxtLink to="hidraulica">
             <li> 
                 <div class="item">
-                <Icon class="icons" name="ic:baseline-water-drop"></Icon>     
+                    <img src="/categorias_desktop/desktop_hidraulica.png" alt="">       
                 </div>
                 <p>Hidráulica</p>
             </li>
@@ -36,9 +36,18 @@
                 <NuxtLink to="ferramenta">
             <li> 
                 <div class="item">
-                <Icon class="icons" name="ic:baseline-construction"></Icon>     
+                    <img src="/categorias_desktop/desktop_ferramentas.png" alt="">  
                 </div>
                 <p>Ferramentas</p>
+            </li>
+        </NuxtLink>
+
+        <NuxtLink to="ferramenta">
+            <li> 
+                <div class="item">
+                    <img src="/categorias_desktop/desktop_iluminacao.png" alt="">  
+                </div>
+                <p>Iluminação</p>
             </li>
         </NuxtLink>
 
@@ -81,15 +90,7 @@ nav ul li p{
 
 
 
-.item{
-    display: grid;
-    place-items: center;
-    background-color: red;
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    color: white;
-}
+
 
 nav ul li p{
     width: 34px;
@@ -99,6 +100,12 @@ nav ul li p{
 
 .icons{
     font-size: 40px;
+}
+
+
+ul li img{
+    max-width: 235px;
+    background-color: red;
 }
 
 

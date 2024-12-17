@@ -30,7 +30,4 @@
    </template>
    
 
-   <style scoped>
-
  
-</style>
