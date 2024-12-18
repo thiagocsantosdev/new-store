@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <HeaderCustom></HeaderCustom>
+   
   <NuxtPage />
   <footer>
       <div class="institucional_ajuda">

@@ -9,6 +9,10 @@
       <ListaOfertas></ListaOfertas>
     
       <MarcaPromocional1></MarcaPromocional1>
+
+       <Dicas></Dicas>
+
+       <PedidoExpresso></PedidoExpresso>
     </div>
 </template>
 
