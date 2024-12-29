@@ -1,17 +1,18 @@
 <template>
-<div class="container">
+<div >
 
-
+      <HeaderCustom></HeaderCustom>
       <BannerIndex></BannerIndex>
-      <CategoriasDesktop></CategoriasDesktop>
-      <h3>Principais Ofertas</h3>
+      <CategoriasDesktop v-if ="isDesktop" ></CategoriasDesktop>
+      <Categorias v-if ="isMobile"></Categorias>
+      <h3 class="title">Principais Ofertas</h3>
 
       <ListaOfertas></ListaOfertas>
     
       <MarcaPromocional1></MarcaPromocional1>
 
        <Dicas></Dicas>
-
+        <MarcaPromocional2></MarcaPromocional2>
        <PedidoExpresso></PedidoExpresso>
     </div>
 </template>
@@ -21,9 +22,10 @@
 
 <style scoped>
 
-
-h3{
-margin: 0px 0px 30px 30px;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 
@@ -36,8 +38,23 @@ margin: 0px 0px 30px 30px;
 }
 
 
+.title{
+        padding: 20px;
+        font-family: 'Poppins';
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
 
 
 
 
 </style>
+
+
+<script setup>
+
+import { useMediaQuery } from '@vueuse/core'
+
+const isDesktop = useMediaQuery('(min-width: 581px)')
+const isMobile = useMediaQuery('(max-width: 580px)')
+</script>

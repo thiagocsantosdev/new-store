@@ -58,7 +58,6 @@ footer{
   align-items: center;
   margin-top: 100px;
   padding-top: 100px;
-  padding-left: 20px;
 
 }
 
@@ -73,7 +72,7 @@ footer{
   font-size: 1.1rem;
  }
 
- nav ul{
+ .nav ul{
   display: flex;
   flex-direction: column;
   color: white;

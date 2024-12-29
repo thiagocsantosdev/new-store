@@ -7,15 +7,15 @@
       <CarouselItem>
        <CarouselItemImage
         width="200"
-        
-        src="/banners_index/11.png"
+        height="300"
+        src="/banners_index/ar.png"
        />
       </CarouselItem>
       <CarouselItem>
        <CarouselItemImage
        width="200"
-    
-        src="/banners_index/12.png"
+       height="300"
+        src="/banners_index/2.png"
         
        />
       </CarouselItem>
@@ -23,8 +23,8 @@
       <CarouselItem>
        <CarouselItemImage
        width="200"
-       
-        src="/banners_index/13.png"
+       height="300"
+        src="/banners_index/3.png"
        />
       </CarouselItem>
     
@@ -32,9 +32,16 @@
     </Carousel>
 </div>
    </template>
+
+
+<style scoped>
+
+.container{
+    width: 100%;
+    height: 300px;
+}
+
+</style>
    
 
-   <style scoped>
-
- 
-</style>
+   

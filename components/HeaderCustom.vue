@@ -5,25 +5,32 @@
             <img src="/logo.png" alt="">
         </div> </NuxtLink>
        
-       <Buscar></Buscar>
 
     </header>
 
 </template>
 
 
-<style>
+<style scoped>
 
-.logo img{
-    width: 120px;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 header{
     display: flex;
-    width: 100vw;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
+
+
 }
+.logo img{
+    width: 200px;
+}
+
+
+
+
 
 </style>

@@ -1,11 +1,15 @@
 <template>
    
+    <div class="container-categoria-desktop">
+
     
     <p class="title">
         Categorias
     </p>
     <nav>
-        <ul> <NuxtLink to="/">
+        <ul > 
+            
+            <NuxtLink to="/">
             <li> 
                 <div class="item">
                 <img src="/categorias_desktop/desktop_ofertas.png" alt="">    
@@ -55,66 +59,58 @@
         </ul>
     </nav>
 
-
+</div>
 </template>
 
 <style scoped>
 
-.title{
-  margin: 20px 0px 20px 30px;  
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-nav ul{
+    .title{
+        padding: 20px;
+        font-family: 'Poppins';
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+  .container-categoria-desktop{
+    width: 100%;
     display: flex;
+    
+    flex-direction: column;
+  }
 
-    gap: 12px;
-}
-
-nav ul li{
+   nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     list-style: none;
-   
-   
-}
 
-a{
-  all: unset;
-  text-decoration: none;
-}
+   }
 
+   nav ul li p{
+    text-decoration: none;
+    color: black;
+   }
 
-
-nav ul li p{
-
-   color: black;
-}
+    a{
+        text-decoration: none;
+    }
 
 
-
-
-
-nav ul li p{
-    width: 34px;
-   
-}
-
-
-.icons{
-    font-size: 40px;
-}
 
 
 ul li img{
-    max-width: 235px;
+    width: clamp(135px, 20vw, 235px);
     background-color: red;
 }
 
 
-.container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: red;
-    width: 100vw;
-}
+
 </style>

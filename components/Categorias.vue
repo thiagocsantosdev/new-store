@@ -57,14 +57,28 @@
 
 nav ul{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul{
+    display: flex;
 
     gap: 12px;
 }
 
 nav ul li{
     list-style: none;
-   
-   
+
+  
+}
+
+.item{
+    background-color: red;
+    color: white;
+    padding: 24px;
+    border-radius: 5px;
+ 
 }
 
 a{
@@ -81,15 +95,7 @@ nav ul li p{
 
 
 
-.item{
-    display: grid;
-    place-items: center;
-    background-color: red;
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    color: white;
-}
+
 
 nav ul li p{
     width: 34px;
