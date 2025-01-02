@@ -11,7 +11,7 @@
     
       <MarcaPromocional1></MarcaPromocional1>
 
-       <Dicas></Dicas>
+    
         <MarcaPromocional2></MarcaPromocional2>
        <PedidoExpresso></PedidoExpresso>
     </div>

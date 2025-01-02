@@ -8,15 +8,10 @@
        <CarouselItemImage
         width="800"
         
-        src="/banners_ferramentas/9.png"
+        src="/banners_ferramentas/1.png"
        />
       </CarouselItem>
-      <CarouselItem>
-       <CarouselItemImage
-        width="800"
-        src="/banners_ferramentas/10.png"
-       />
-      </CarouselItem>
+    
     
      </CarouselInner>
     </Carousel>

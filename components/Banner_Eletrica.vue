@@ -7,22 +7,14 @@
       <CarouselItem>
        <CarouselItemImage
         width="800"
-       
         
-        src="/banners_eletrica/6.png"
+        src="/banners_eletrica/1.png"
        />
       </CarouselItem>
       <CarouselItem>
        <CarouselItemImage
         width="800"
-        src="/banners_eletrica/7.png"
-       />
-      </CarouselItem>
-      <CarouselItem>
-       <CarouselItemImage
-        width="800"
-
-        src="/banners_eletrica/8.png"
+        src="/banners_eletrica/2.png"
        />
       </CarouselItem>
      </CarouselInner>

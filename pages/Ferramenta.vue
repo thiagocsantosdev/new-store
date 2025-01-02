@@ -1,8 +1,9 @@
 <template>
   
     <div>
+      <HeaderCustom></HeaderCustom>
      <BannerFerramenta></BannerFerramenta>
-      <Categorias></Categorias>
+   
       <h3>
           Tudo em Ferramentas
          </h3>

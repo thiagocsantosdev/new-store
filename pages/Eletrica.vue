@@ -1,8 +1,8 @@
 <template>
   
 <div>
+  <HeaderCustom></HeaderCustom>
  <BannerEletrica></BannerEletrica>
-  <Categorias></Categorias>
       <h3>Tudo em Elétrica</h3>
       <ul>
         <li v-for="produto in produtosFiltrados" :key="produto.id">

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="content">
          <h4>
-            <p></p>
+            <p>Seleção</p>
             <p>LORENZETTI</p>
          </h4>
         </div>
@@ -52,10 +52,16 @@
  
 }
 
-h4{
+h4 p:nth-child(2){
     color: white;
     font-size: 3rem;
     font-weight: bold;
+}
+
+h4 p:nth-child(1){
+    color: white;
+    font-size: 1rem;
+    font-style: normal;
 }
 
 .items{

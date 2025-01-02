@@ -2,7 +2,6 @@
   
   <div>
     <BannerHidraulica></BannerHidraulica>
-    <Categorias></Categorias>
     <h3>
         Tudo em Hidráulica
        </h3>

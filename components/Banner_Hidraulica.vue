@@ -1,33 +1,34 @@
 <template>
-    <div>
+    <HeaderCustom></HeaderCustom>
+    <div class="container">
 
-    
-    <Carousel control>
+        <Carousel control>
      <CarouselInner>
       <CarouselItem>
        <CarouselItemImage
         width="800"
+      
         
-        src="/banners_hidraulica/1.png"
+        src="/banners_index/4.png"
        />
       </CarouselItem>
       <CarouselItem>
        <CarouselItemImage
         width="800"
-        src="/banners_hidraulica/3.png"
-       />
-      </CarouselItem>
-      <CarouselItem>
-       <CarouselItemImage
-        width="800"
-
-        src="/banners_hidraulica/4.png"
+      
+        
+        src="/banners_index/4--2.png"
        />
       </CarouselItem>
      </CarouselInner>
     </Carousel>
+
 </div>
    </template>
    
+<style scoped>
 
+
+
+</style>
  
