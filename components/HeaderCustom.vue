@@ -26,7 +26,9 @@ header{
 
 }
 .logo img{
-    width: 200px;
+    min-width: 50px; /* largura mínima */
+  max-width: 800px; /* largura máxima */
+  width: 30%; 
 }
 
 

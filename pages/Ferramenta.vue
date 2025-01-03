@@ -60,9 +60,6 @@
       width: 150px;
       height: 240px;
       }
-      
-      
-      
       .item-content{
       display: flex;
       align-items: center;

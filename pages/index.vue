@@ -2,7 +2,8 @@
 <div >
 
       <HeaderCustom></HeaderCustom>
-      <BannerIndex></BannerIndex>
+      <BannerIndex v-if="isDesktop"></BannerIndex>
+       <BannerMobileIndex v-if="isMobile"></BannerMobileIndex>
       <CategoriasDesktop v-if ="isDesktop" ></CategoriasDesktop>
       <Categorias v-if ="isMobile"></Categorias>
       <h3 class="title">Principais Ofertas</h3>
@@ -11,8 +12,10 @@
     
       <MarcaPromocional1></MarcaPromocional1>
 
-    
-        <MarcaPromocional2></MarcaPromocional2>
+
+        <MarcaPromocional2 v-if="isDesktop"></MarcaPromocional2>
+        <MarcaPromocional2Mobile v-if="isMobile"></MarcaPromocional2Mobile>
+        <Dicas></Dicas>
        <PedidoExpresso></PedidoExpresso>
     </div>
 </template>
