@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container-banner">
 
     
     <Carousel control>
@@ -40,9 +40,15 @@
 
 <style scoped>
 
-.container{
+.container-banner{
     width: 100%;
-    height: 300px;
+    height: 480px;
+    display: flex;
+    align-items: end;
+}
+
+img{
+    border-radius: 15px;
 }
 
 </style>

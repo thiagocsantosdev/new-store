@@ -40,6 +40,7 @@
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 2fr ;
+    border-radius: 15px;
 }
 
 
@@ -75,11 +76,13 @@ h4 p:nth-child(1){
     width: 260px;
     height: 260px;
     border-radius: 15px;
+    
 }
 
 .item img{
    width: 200px;
    margin-top: -10px;
+  
 }
 
 .preco{

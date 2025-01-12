@@ -1,7 +1,8 @@
 <template>
-<div >
+<div class="container-index" >
 
       <HeaderCustom></HeaderCustom>
+      <div class="container">
       <BannerIndex v-if="isDesktop"></BannerIndex>
        <BannerMobileIndex v-if="isMobile"></BannerMobileIndex>
       <CategoriasDesktop v-if ="isDesktop" ></CategoriasDesktop>
@@ -17,6 +18,7 @@
         <MarcaPromocional2Mobile v-if="isMobile"></MarcaPromocional2Mobile>
         <Dicas></Dicas>
        <PedidoExpresso></PedidoExpresso>
+       </div>
     </div>
 </template>
 
@@ -30,23 +32,19 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
-
-.banner{
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-
 .title{
         padding: 20px;
         font-family: 'Poppins';
         font-size: 1.6rem;
         font-weight: 500;
     }
+    .container-index{
+      display: grid;
+      place-items: center;
+     
+    }
+
+
 
 
 

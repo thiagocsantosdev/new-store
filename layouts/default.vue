@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
    
   <NuxtPage />
   <footer>
@@ -49,6 +49,8 @@
 
 
 <style scoped>
+
+
 
 footer{
   background-color: red;

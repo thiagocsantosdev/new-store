@@ -109,6 +109,7 @@
 ul li img{
     width: clamp(135px, 20vw, 235px);
     background-color: red;
+    border-radius: 15px;
 }
 
 
