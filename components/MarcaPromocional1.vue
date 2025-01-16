@@ -67,16 +67,24 @@ img{
     background-image: url('/furadeira.png');
 }
 .item:nth-child(2){
-    grid-column: span 3;
+    grid-column: span 2;
+    background-image: url('/miniparafusadeira.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .item:nth-child(3){
-    grid-column: span 2;
+    grid-column: span 3;
+    background-image: url('/alicate.png');
 }
 .item:nth-child(4){
     grid-column: span 2;
+    background-image: url('/escovarotativa.png');
 }
 .item:nth-child(5){
     grid-column: span 4;
+    background-image: url('/pulverizador.png');
+    background-repeat: no-repeat;
+    background-color:#1f1f1f;
 }
 
 
