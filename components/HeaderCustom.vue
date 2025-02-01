@@ -43,7 +43,7 @@ header{
     justify-content: center;
     position: fixed;
   top: 1;
-    z-index: 1;
+    z-index: 10;
    background-color:white;
    backdrop-filter: blur(20px);
     width: 100vw;

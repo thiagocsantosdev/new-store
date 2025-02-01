@@ -9,13 +9,12 @@
       <Categorias v-if ="isMobile"></Categorias>
       <h3 class="title">Principais Ofertas</h3>
 
-      <ListaOfertas></ListaOfertas>
-    
+      <ProdutosCarrousel></ProdutosCarrousel>
+      
       <MarcaPromocional1></MarcaPromocional1>
 
-
-        <MarcaPromocional2 v-if="isDesktop"></MarcaPromocional2>
-        <MarcaPromocional2Mobile v-if="isMobile"></MarcaPromocional2Mobile>
+      <h3 class="title">Mãos a obra</h3>
+      <produtosCarrouselEssenciais></produtosCarrouselEssenciais>
         <Dicas></Dicas>
        <PedidoExpresso></PedidoExpresso>
        </div>

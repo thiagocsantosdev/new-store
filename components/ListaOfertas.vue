@@ -45,12 +45,12 @@ flex-wrap: wrap;
 li{
 list-style: none;
 display: grid;
-grid-template-rows: 160px 20px 20px;
+grid-template-rows: 240px 20px 20px;
 place-items: center;
 border: 1px solid lightgray;
 border-radius: 5px;
 width: 150px;
-height: 240px;
+height: 340px;
 }
 
 
@@ -60,6 +60,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+
 }
 
 .nome-produto{

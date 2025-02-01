@@ -1,0 +1,4 @@
+<template>
+
+  <produtosCarrousel></produtosCarrousel>
+</template>

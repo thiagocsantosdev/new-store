@@ -35,7 +35,7 @@
 
 .container{
     background-color: red;
-    width: 100%;
+    
     height: 300px;
     margin-top: 20px;
     display: grid;
