@@ -3,7 +3,7 @@
   
   <Carousel v-bind="carouselConfig">
    
-    <Slide v-for="produto in produtos" :key="produto.id">
+    <Slide v-for="produto in produtos.filter(p => p.subcategorias ==='essenciais')" :key="produto.id">
       <li>
       <div class="carousel__item">{{ produto.id[0] }}
         <img :src="produto.imagem" alt="Imagem do produto" width="120" />

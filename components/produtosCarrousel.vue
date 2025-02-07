@@ -86,6 +86,18 @@ padding: 20px;
   width: 200px;
   height: 280px;
   margin-bottom: 40px;
+  transition: ease-in-out 200ms;
+}
+
+.carousel__item:hover{
+  border: 1px solid red;
+  transition: ease-in-out 200ms;
+  cursor: pointer;
+}
+
+.carousel__item img:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 200ms;
 }
 
 .preco-produto{
