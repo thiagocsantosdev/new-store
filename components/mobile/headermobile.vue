@@ -2,7 +2,7 @@
     <div class="container-header">
 
     
-   
+    <AlertHeader></AlertHeader>
     <header>
        
         <div class="caixa">
@@ -14,7 +14,7 @@
             </NuxtLink>
             
             <Buscar></Buscar>
-            <Menu2Header></Menu2Header>
+       
         </div>
         
     </header>
@@ -30,25 +30,30 @@
     box-sizing: border-box;
 }
 
-
+.container-header{
+    display: flex;
+    justify-content: center;
+  
+    margin-bottom:120px;
+}
 
 
 header{
-    margin-top: 20px;
+    margin-top: 30px;
+    
     display: flex;
-    align-items: center;
-    justify-content: center;
+   
     position: fixed;
   top: 1;
     z-index: 10;
    background-color:white;
    backdrop-filter: blur(20px);
-    width: 1300px;
+    width:100%;
     border-radius: 25px;
     box-shadow: 1px 1px 10px 1px gray;
     height: 100px;
-    padding: 20px;
- 
+    
+    
 }
 .logo img{
     min-width: 150px; /* largura mínima */
@@ -60,9 +65,11 @@ header{
   
 display: grid;
 align-items: center;
-grid-template-columns: 1fr 4fr 2fr;
-    width: 100%;
+grid-template-columns: 1fr 1fr ;
+gap:20px;
+    width: 100px;
     height: 100%;
+  padding-left:20px;
  
 }
 

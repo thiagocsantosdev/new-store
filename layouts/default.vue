@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
    
   <NuxtPage />
   <footer>
@@ -98,7 +98,6 @@ footer{
   justify-content: center;
   margin-top: 50px;
  }
-
 
 
 

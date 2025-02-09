@@ -45,6 +45,7 @@
     height: 480px;
     display: flex;
     align-items: end;
+   
 }
 
 img{

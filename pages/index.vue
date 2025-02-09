@@ -1,22 +1,25 @@
 <template>
-<div class="container-index" >
+<div class="container" >
 
-      <HeaderCustom></HeaderCustom>
-      <div class="container">
+      <HeaderCustom v-if="isDesktop"></HeaderCustom>
+      <MobileHeadermobile v-if='isMobile'></MobileHeadermobile>
+      <div>
       <BannerIndex v-if="isDesktop"></BannerIndex>
-       <BannerMobileIndex v-if="isMobile"></BannerMobileIndex>
       <CategoriasDesktop v-if ="isDesktop" ></CategoriasDesktop>
       <Categorias v-if ="isMobile"></Categorias>
       <h3 class="title">Principais Ofertas</h3>
 
-      <ProdutosCarrousel></ProdutosCarrousel>
+      <ProdutosCarrousel v-if="isDesktop"></ProdutosCarrousel>
       
-      <MarcaPromocional1></MarcaPromocional1>
+      <MarcaPromocional1 v-if="isDesktop"></MarcaPromocional1>
 
       <h3 class="title">Mãos a obra</h3>
-      <produtosCarrouselEssenciais></produtosCarrouselEssenciais>
-        <Dicas></Dicas>
-       <PedidoExpresso></PedidoExpresso>
+      <produtosCarrouselEssenciais v-if="isDesktop"></produtosCarrouselEssenciais>
+        <MobileProdutosCarrouselEssenciais v-if="isMobile"></MobileProdutosCarrouselEssenciais>
+      <Dicas></Dicas>
+      <h3 class="title">Ofertas LIMITADAS</h3>
+      <ProdutosCarrouselOfertaDaSemana></ProdutosCarrouselOfertaDaSemana>
+       <PedidoExpresso v-if="isDesktop"></PedidoExpresso>
        </div>
     </div>
 </template>
@@ -37,13 +40,12 @@
         font-size: 1.6rem;
         font-weight: 500;
     }
-    .container-index{
-      display: grid;
-      place-items: center;
-     
-    }
+   
 
 
+.container{
+ 
+}
 
 
 
