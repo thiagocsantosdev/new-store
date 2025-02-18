@@ -8,13 +8,19 @@
        <CarouselItemImage
         width="800"
         
-        src="/banners_eletrica/1.png"
+        src="/banners_index/1mobile.png"
        />
       </CarouselItem>
       <CarouselItem>
        <CarouselItemImage
         width="800"
-        src="/banners_eletrica/2.png"
+        src="/banners_index/2mobile.png"
+       />
+      </CarouselItem>
+      <CarouselItem>
+       <CarouselItemImage
+        width="800"
+        src="/banners_index/3mobile.png"
        />
       </CarouselItem>
      </CarouselInner>
