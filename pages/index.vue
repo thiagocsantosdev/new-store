@@ -5,6 +5,7 @@
       <MobileHeadermobile v-if='isMobile'></MobileHeadermobile>
       <div>
       <BannerIndex v-if="isDesktop"></BannerIndex>
+      <BannerMobileIndex v-if="isMobile"></BannerMobileIndex>
       <CategoriasDesktop v-if ="isDesktop" ></CategoriasDesktop>
       <Categorias v-if ="isMobile"></Categorias>
       <h3 class="title">Principais Ofertas</h3>
@@ -46,9 +47,6 @@
    
 
 
-.container{
- 
-}
 
 
 

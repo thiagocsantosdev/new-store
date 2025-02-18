@@ -52,7 +52,7 @@
 <style scoped>
 
 .title{
-  margin: 20px 0px 20px 30px;  
+  margin-top :30px;  
 }
 
 nav ul{

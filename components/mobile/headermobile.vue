@@ -48,7 +48,7 @@ header{
     z-index: 10;
    background-color:white;
    backdrop-filter: blur(20px);
-    width:100%;
+    width:100vw;
     border-radius: 25px;
     box-shadow: 1px 1px 10px 1px gray;
     height: 100px;
