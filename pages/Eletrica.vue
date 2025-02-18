@@ -50,7 +50,7 @@ grid-template-rows: 160px 20px 20px;
 place-items: center;
 border: 1px solid lightgray;
 border-radius: 5px;
-width: 150px;
+width: 160px;
 height: 240px;
 }
 
@@ -65,7 +65,7 @@ flex-direction: column;
 
 .nome-produto{
 font-family: 'Montserrat';
-padding: 20px;
+padding-top: 10px 10px 10px 10px;
 }
 
 .preco-produto{

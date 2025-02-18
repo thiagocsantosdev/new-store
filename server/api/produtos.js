@@ -13,9 +13,9 @@ export default defineEventHandler(() =>{
         {id:10, nome:'Trena Kaef 3mts ' , categoria:'ferramentas', marca:'outros', subcategorias:'essenciais',  preco: 8.90, imagem: '/produtos/ferramentas/outros/trena-3mts-kaef.png'},
         {id:11, nome:'Extensao 3mts Jet ' , categoria:'eletrica', marca:'jetcoin', subcategorias:'essenciais',  preco: 12.90, imagem: '/produtos/eletrica/jetcoin/extensao-3mts-jetcoin.png'},
         {id:12, nome:'Alicate Univ 8" ' , categoria:'ferramentas', marca:'startools', subcategorias:'essenciais',  preco: 22.90, imagem: '/produtos/ferramentas/startools/alicate-universal8-startools.png'},
-        {id:13, nome:'Descarga Alumasa" ' , categoria:'superpromo', marca:'alumasa', subcategorias:'superpromo',  preco: 29.90, imagem: '/produtos/superpromo/caixa-descarga-alumasa.png'},
-        {id:14, nome:'Lampada 9w Branca Fox" ' , categoria:'superpromo', marca:'startools', subcategorias:'superpromo',  preco: 2.90, imagem: '/produtos/superpromo/lampada-9w-fox-6500k.png'},
-        {id:15, nome:'Assento Simples Prime" ' , categoria:'superpromo', marca:'startools', subcategorias:'superpromo',  preco: 19.90, imagem: '/produtos/superpromo/assento-viatek-premium.png'},
+        {id:13, nome:'Descarga Alumasa" ' , categoria:'superpromo', marca:'alumasa', subcategorias:'superpromo',  preco: 39.90, precoPromocional:29.90, imagem: '/produtos/superpromo/caixa-descarga-alumasa.png'},
+        {id:14, nome:'Lampada 9w Branca Fox" ' , categoria:'superpromo', marca:'startools', subcategorias:'superpromo',  preco: 5.90, precoPromocional:2.90, imagem: '/produtos/superpromo/lampada-9w-fox-6500k.png'},
+        {id:15, nome:'Assento Simples Prime" ' , categoria:'superpromo', marca:'startools', subcategorias:'superpromo',  preco: 24.90, precoPromocional:19.90, imagem: '/produtos/superpromo/assento-viatek-premium.png'},
     ];
     return produtos;
 })

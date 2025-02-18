@@ -46,7 +46,7 @@
             </li>
         </NuxtLink>
 
-        <NuxtLink to="ferramenta">
+        <NuxtLink to="iluminacao">
             <li> 
                 <div class="item">
                     <img src="/categorias_desktop/desktop_iluminacao.png" alt="">  

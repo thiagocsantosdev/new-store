@@ -31,7 +31,7 @@
       
     
       const produtosFiltrados = computed(() => {
-        return produtos.value?.filter(produto => produto.categoria === 'ferramenta') || []
+        return produtos.value?.filter(produto => produto.categoria === 'ferramentas') || []
       })
       </script>
       

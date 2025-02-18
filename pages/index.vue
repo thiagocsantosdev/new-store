@@ -19,7 +19,10 @@
       <Dicas></Dicas>
       <h3 class="title">Ofertas LIMITADAS</h3>
       <ProdutosCarrouselOfertaDaSemana></ProdutosCarrouselOfertaDaSemana>
+      <h3 class="title">Marcas Parceiras</h3>
+      <MarcasParceirasVue></MarcasParceirasVue>
        <PedidoExpresso v-if="isDesktop"></PedidoExpresso>
+       
        </div>
     </div>
 </template>

@@ -11,6 +11,7 @@
             <p>Quantidade limitada!</p>
             <p class="nome-produto">   {{ produto.nome }}</p> 
             <p class="preco-produto"> R$ {{ produto.preco.toFixed(2) }}</p>
+            <p class="preco-produto-promocional"> R$ {{ produto.precoPromocional.toFixed(2) }}</p>
             <button>
               Comprar
             </button>
@@ -64,9 +65,10 @@ padding: 20px;
 }
 
 .nome-produto{
-font-family: 'Montserrat';
-
-font-size: 1.6rem;
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 1rem;
+color: #1f1f1f;
 }
 
 .carousel__item{
@@ -93,9 +95,18 @@ font-size: 1.6rem;
 }
 
 .preco-produto{
-font-family: 'Montserrat';
+  color: gray;
+  text-decoration:line-through;
+  font-weight: 500;
+  font-family: 'Helvetica';
+  font-size: .8rem;
+}
+
+.preco-produto-promocional{
+font-family: 'Poppins';
 font-weight: 800;
 font-size: 2rem;
+color:rgb(206, 23, 23);
 }
 
 .item-content p:nth-child(1){

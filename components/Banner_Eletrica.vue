@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="banner">
 
     
     <Carousel control>
@@ -23,3 +23,10 @@
    </template>
    
 
+   <style scoped>
+
+   .banner{
+       padding-top: 140px;
+   }
+   
+   </style>
