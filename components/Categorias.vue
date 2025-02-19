@@ -54,6 +54,11 @@
 .title{
   margin-top :30px;  
 }
+ 
+nav{
+
+margin-left: -40px;
+}
 
 nav ul{
     display: flex;
@@ -61,11 +66,7 @@ nav ul{
     justify-content: space-around;
 }
 
-nav ul{
-    display: flex;
 
-    gap: 12px;
-}
 
 nav ul li{
     list-style: none;
@@ -104,16 +105,9 @@ nav ul li p{
 
 
 .icons{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 
-.container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: red;
-    width: 100vw;
-}
+
 </style>
