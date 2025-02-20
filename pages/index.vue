@@ -1,8 +1,9 @@
 <template>
-<div class="container" >
+<div  >
 
-      <HeaderCustom v-if="isDesktop"></HeaderCustom>
-      <MobileHeadermobile v-if='isMobile'></MobileHeadermobile>
+      <HeaderCustom ></HeaderCustom>
+      <SubmenuCategorias></SubmenuCategorias>
+     
       <div>
       <BannerIndex v-if="isDesktop"></BannerIndex>
       <BannerMobileIndex v-if="isMobile"></BannerMobileIndex>
@@ -58,6 +59,6 @@
 
 import { useMediaQuery } from '@vueuse/core'
 
-const isDesktop = useMediaQuery('(min-width: 581px)')
-const isMobile = useMediaQuery('(max-width: 580px)')
+const isDesktop = useMediaQuery('(min-width: 641px)')
+const isMobile = useMediaQuery('(max-width: 640px)')
 </script>

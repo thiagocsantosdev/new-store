@@ -42,9 +42,10 @@
 
 .container-banner{
     width: 100%;
-    height: 480px;
+    height: 360px;
     display: flex;
     align-items: end;
+ 
    
 }
 

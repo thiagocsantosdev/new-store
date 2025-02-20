@@ -1,10 +1,10 @@
 <template>
-    <div class="container-header">
+    <div  class="container-header" >
 
     
    
     <header>
-       
+        <div class="conteudo-header">
         <div class="caixa">
            
         <NuxtLink to="/">  
@@ -15,9 +15,11 @@
             
             <Buscar></Buscar>
             <Menu2Header></Menu2Header>
+          
         </div>
-        
+    </div>
     </header>
+  
 </div>
 </template>
 
@@ -31,23 +33,27 @@
 }
 
 
-
-
-header{
-    margin-top: 20px;
+.container-header{
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+header{
+
+    display: flex;
+    align-items: start;
     justify-content: center;
     position: fixed;
   top: 1;
     z-index: 10;
-   background-color:white;
-   backdrop-filter: blur(20px);
-    width: 1300px;
-    border-radius: 25px;
-    box-shadow: 1px 1px 10px 1px gray;
-    height: 100px;
+   background-color: red;
+
+    width: 100%;
+    height: 120px;
     padding: 20px;
+ 
  
 }
 .logo img{
@@ -71,8 +77,15 @@ a{
     text-decoration: none;
 }
 
+.conteudo-header{
+    margin-top: 30px;
+    width: 1320px;
+    color: white;
+}
 
 
 
 
 </style>
+
+
